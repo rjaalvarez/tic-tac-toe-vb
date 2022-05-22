@@ -78,7 +78,7 @@ Partial Class tictactoeVB
         'howToPlayMenu
         '
         Me.howToPlayMenu.Name = "howToPlayMenu"
-        Me.howToPlayMenu.Size = New System.Drawing.Size(138, 22)
+        Me.howToPlayMenu.Size = New System.Drawing.Size(180, 22)
         Me.howToPlayMenu.Text = "How to play"
         '
         'topLeftButton

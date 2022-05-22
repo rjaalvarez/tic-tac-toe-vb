@@ -27,6 +27,10 @@
         botRightButton.Text = ""
     End Sub
 
+    Private Sub howToPlayMenu_Click(sender As Object, e As EventArgs) Handles howToPlayMenu.Click
+        MessageBox.Show("The game is played by 2 people taking turns. One person is X, and other person is O. The winning condition of the game is to have a diagonal, row, or column of matching symbols.")
+    End Sub
+
     Private Sub buttonFalse()
         topLeftButton.Enabled = False
         topMidButton.Enabled = False
@@ -171,4 +175,111 @@
         End If
     End Sub
 
+    Private Sub topLeftButton_Click(sender As Object, e As EventArgs) Handles topLeftButton.Click
+        If playturn = False Then
+            topLeftButton.Text = "O"
+            playturn = True
+        Else
+            topLeftButton.Text = "X"
+            playturn = False
+        End If
+        checkWinner()
+        topLeftButton.Enabled = False
+    End Sub
+
+    Private Sub topMidButton_Click(sender As Object, e As EventArgs) Handles topMidButton.Click
+        If playturn = False Then
+            topMidButton.Text = "O"
+            playturn = True
+        Else
+            topMidButton.Text = "X"
+            playturn = False
+        End If
+        checkWinner()
+        topMidButton.Enabled = False
+    End Sub
+
+    Private Sub topRightButton_Click(sender As Object, e As EventArgs) Handles topRightButton.Click
+        If playturn = False Then
+            topRightButton.Text = "O"
+            playturn = True
+        Else
+            topRightButton.Text = "X"
+            playturn = False
+        End If
+        checkWinner()
+        topRightButton.Enabled = False
+    End Sub
+
+    Private Sub leftMidButton_Click(sender As Object, e As EventArgs) Handles leftMidButton.Click
+        If playturn = False Then
+            leftMidButton.Text = "O"
+            playturn = True
+        Else
+            leftMidButton.Text = "X"
+            playturn = False
+        End If
+        checkWinner()
+        leftMidButton.Enabled = False
+    End Sub
+
+    Private Sub midButton_Click(sender As Object, e As EventArgs) Handles midButton.Click
+        If playturn = False Then
+            midButton.Text = "O"
+            playturn = True
+        Else
+            midButton.Text = "X"
+            playturn = False
+        End If
+        checkWinner()
+        midButton.Enabled = False
+    End Sub
+
+    Private Sub rightMidButton_Click(sender As Object, e As EventArgs) Handles rightMidButton.Click
+        If playturn = False Then
+            rightMidButton.Text = "O"
+            playturn = True
+        Else
+            rightMidButton.Text = "X"
+            playturn = False
+        End If
+        checkWinner()
+        rightMidButton.Enabled = False
+    End Sub
+
+    Private Sub botLeftButton_Click(sender As Object, e As EventArgs) Handles botLeftButton.Click
+        If playturn = False Then
+            botLeftButton.Text = "O"
+            playturn = True
+        Else
+            botLeftButton.Text = "X"
+            playturn = False
+        End If
+        checkWinner()
+        botLeftButton.Enabled = False
+    End Sub
+
+    Private Sub botMidButton_Click(sender As Object, e As EventArgs) Handles botMidButton.Click
+        If playturn = False Then
+            botMidButton.Text = "O"
+            playturn = True
+        Else
+            botMidButton.Text = "X"
+            playturn = False
+        End If
+        checkWinner()
+        botMidButton.Enabled = False
+    End Sub
+
+    Private Sub botRightButton_Click(sender As Object, e As EventArgs) Handles botRightButton.Click
+        If playturn = False Then
+            botRightButton.Text = "O"
+            playturn = True
+        Else
+            botRightButton.Text = "X"
+            playturn = False
+        End If
+        checkWinner()
+        botRightButton.Enabled = False
+    End Sub
 End Class
