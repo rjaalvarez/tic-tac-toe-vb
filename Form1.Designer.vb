@@ -212,6 +212,7 @@ Partial Class tictactoeVB
         Me.Controls.Add(Me.topMidButton)
         Me.Controls.Add(Me.topLeftButton)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MainMenuStrip = Me.MenuStrip1
         Me.MaximizeBox = False
         Me.MinimizeBox = False
