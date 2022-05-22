@@ -24,10 +24,10 @@ Partial Class tictactoeVB
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NewGameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HowToPlayToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.newGame = New System.Windows.Forms.ToolStripMenuItem()
+        Me.exitGame = New System.Windows.Forms.ToolStripMenuItem()
+        Me.helpMenu = New System.Windows.Forms.ToolStripMenuItem()
+        Me.howToPlayMenu = New System.Windows.Forms.ToolStripMenuItem()
         Me.topLeftButton = New System.Windows.Forms.Button()
         Me.topMidButton = New System.Windows.Forms.Button()
         Me.topRightButton = New System.Windows.Forms.Button()
@@ -42,7 +42,7 @@ Partial Class tictactoeVB
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem, Me.HelpToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem, Me.helpMenu})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(507, 24)
@@ -51,35 +51,35 @@ Partial Class tictactoeVB
         '
         'MenuToolStripMenuItem
         '
-        Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewGameToolStripMenuItem, Me.ExitToolStripMenuItem})
+        Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.newGame, Me.exitGame})
         Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
         Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
         Me.MenuToolStripMenuItem.Text = "Menu"
         '
-        'NewGameToolStripMenuItem
+        'newGame
         '
-        Me.NewGameToolStripMenuItem.Name = "NewGameToolStripMenuItem"
-        Me.NewGameToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.NewGameToolStripMenuItem.Text = "New game"
+        Me.newGame.Name = "newGame"
+        Me.newGame.Size = New System.Drawing.Size(180, 22)
+        Me.newGame.Text = "New game"
         '
-        'ExitToolStripMenuItem
+        'exitGame
         '
-        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ExitToolStripMenuItem.Text = "Exit"
+        Me.exitGame.Name = "exitGame"
+        Me.exitGame.Size = New System.Drawing.Size(180, 22)
+        Me.exitGame.Text = "Exit"
         '
-        'HelpToolStripMenuItem
+        'helpMenu
         '
-        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HowToPlayToolStripMenuItem})
-        Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
-        Me.HelpToolStripMenuItem.Text = "Help"
+        Me.helpMenu.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.howToPlayMenu})
+        Me.helpMenu.Name = "helpMenu"
+        Me.helpMenu.Size = New System.Drawing.Size(44, 20)
+        Me.helpMenu.Text = "Help"
         '
-        'HowToPlayToolStripMenuItem
+        'howToPlayMenu
         '
-        Me.HowToPlayToolStripMenuItem.Name = "HowToPlayToolStripMenuItem"
-        Me.HowToPlayToolStripMenuItem.Size = New System.Drawing.Size(138, 22)
-        Me.HowToPlayToolStripMenuItem.Text = "How to play"
+        Me.howToPlayMenu.Name = "howToPlayMenu"
+        Me.howToPlayMenu.Size = New System.Drawing.Size(138, 22)
+        Me.howToPlayMenu.Text = "How to play"
         '
         'topLeftButton
         '
@@ -183,10 +183,10 @@ Partial Class tictactoeVB
 
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents MenuToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents NewGameToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents HelpToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents HowToPlayToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents newGame As ToolStripMenuItem
+    Friend WithEvents exitGame As ToolStripMenuItem
+    Friend WithEvents helpMenu As ToolStripMenuItem
+    Friend WithEvents howToPlayMenu As ToolStripMenuItem
     Friend WithEvents topLeftButton As Button
     Friend WithEvents topMidButton As Button
     Friend WithEvents topRightButton As Button
