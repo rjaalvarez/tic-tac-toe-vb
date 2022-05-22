@@ -25,6 +25,16 @@
         botLeftButton.Text = ""
         botMidButton.Text = ""
         botRightButton.Text = ""
+
+        topLeftButton.BackColor = Color.DarkSalmon
+        topMidButton.BackColor = Color.DarkSalmon
+        topRightButton.BackColor = Color.DarkSalmon
+        leftMidButton.BackColor = Color.DarkSalmon
+        midButton.BackColor = Color.DarkSalmon
+        rightMidButton.BackColor = Color.DarkSalmon
+        botLeftButton.BackColor = Color.DarkSalmon
+        botMidButton.BackColor = Color.DarkSalmon
+        botRightButton.BackColor = Color.DarkSalmon
     End Sub
 
     Private Sub howToPlayMenu_Click(sender As Object, e As EventArgs) Handles howToPlayMenu.Click

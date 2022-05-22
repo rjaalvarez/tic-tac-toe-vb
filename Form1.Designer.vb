@@ -22,6 +22,7 @@ Partial Class tictactoeVB
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(tictactoeVB))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.newGame = New System.Windows.Forms.ToolStripMenuItem()
@@ -84,101 +85,112 @@ Partial Class tictactoeVB
         '
         'topLeftButton
         '
+        Me.topLeftButton.BackColor = System.Drawing.Color.DarkSalmon
         Me.topLeftButton.Font = New System.Drawing.Font("Cooper Black", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.topLeftButton.Location = New System.Drawing.Point(108, 110)
+        Me.topLeftButton.Location = New System.Drawing.Point(107, 118)
         Me.topLeftButton.Name = "topLeftButton"
-        Me.topLeftButton.Size = New System.Drawing.Size(75, 75)
+        Me.topLeftButton.Size = New System.Drawing.Size(90, 90)
         Me.topLeftButton.TabIndex = 1
         Me.topLeftButton.TabStop = False
-        Me.topLeftButton.UseVisualStyleBackColor = True
+        Me.topLeftButton.UseVisualStyleBackColor = False
         '
         'topMidButton
         '
+        Me.topMidButton.BackColor = System.Drawing.Color.DarkSalmon
         Me.topMidButton.Font = New System.Drawing.Font("Cooper Black", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.topMidButton.Location = New System.Drawing.Point(199, 110)
+        Me.topMidButton.Location = New System.Drawing.Point(198, 118)
         Me.topMidButton.Name = "topMidButton"
-        Me.topMidButton.Size = New System.Drawing.Size(75, 75)
+        Me.topMidButton.Size = New System.Drawing.Size(90, 90)
         Me.topMidButton.TabIndex = 2
         Me.topMidButton.TabStop = False
-        Me.topMidButton.UseVisualStyleBackColor = True
+        Me.topMidButton.UseVisualStyleBackColor = False
         '
         'topRightButton
         '
+        Me.topRightButton.BackColor = System.Drawing.Color.DarkSalmon
         Me.topRightButton.Font = New System.Drawing.Font("Cooper Black", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.topRightButton.Location = New System.Drawing.Point(291, 110)
+        Me.topRightButton.Location = New System.Drawing.Point(290, 118)
         Me.topRightButton.Name = "topRightButton"
-        Me.topRightButton.Size = New System.Drawing.Size(75, 75)
+        Me.topRightButton.Size = New System.Drawing.Size(90, 90)
         Me.topRightButton.TabIndex = 3
         Me.topRightButton.TabStop = False
-        Me.topRightButton.UseVisualStyleBackColor = True
+        Me.topRightButton.UseVisualStyleBackColor = False
         '
         'leftMidButton
         '
+        Me.leftMidButton.BackColor = System.Drawing.Color.DarkSalmon
         Me.leftMidButton.Font = New System.Drawing.Font("Cooper Black", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.leftMidButton.Location = New System.Drawing.Point(108, 201)
+        Me.leftMidButton.Location = New System.Drawing.Point(107, 209)
         Me.leftMidButton.Name = "leftMidButton"
-        Me.leftMidButton.Size = New System.Drawing.Size(75, 75)
+        Me.leftMidButton.Size = New System.Drawing.Size(90, 90)
         Me.leftMidButton.TabIndex = 4
         Me.leftMidButton.TabStop = False
-        Me.leftMidButton.UseVisualStyleBackColor = True
+        Me.leftMidButton.UseVisualStyleBackColor = False
         '
         'midButton
         '
+        Me.midButton.BackColor = System.Drawing.Color.DarkSalmon
         Me.midButton.Font = New System.Drawing.Font("Cooper Black", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.midButton.Location = New System.Drawing.Point(199, 201)
+        Me.midButton.Location = New System.Drawing.Point(198, 209)
         Me.midButton.Name = "midButton"
-        Me.midButton.Size = New System.Drawing.Size(75, 75)
+        Me.midButton.Size = New System.Drawing.Size(90, 90)
         Me.midButton.TabIndex = 5
         Me.midButton.TabStop = False
-        Me.midButton.UseVisualStyleBackColor = True
+        Me.midButton.UseVisualStyleBackColor = False
         '
         'rightMidButton
         '
+        Me.rightMidButton.BackColor = System.Drawing.Color.DarkSalmon
         Me.rightMidButton.Font = New System.Drawing.Font("Cooper Black", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rightMidButton.Location = New System.Drawing.Point(291, 201)
+        Me.rightMidButton.Location = New System.Drawing.Point(290, 209)
         Me.rightMidButton.Name = "rightMidButton"
-        Me.rightMidButton.Size = New System.Drawing.Size(75, 75)
+        Me.rightMidButton.Size = New System.Drawing.Size(90, 90)
         Me.rightMidButton.TabIndex = 6
         Me.rightMidButton.TabStop = False
-        Me.rightMidButton.UseVisualStyleBackColor = True
+        Me.rightMidButton.UseVisualStyleBackColor = False
         '
         'botLeftButton
         '
+        Me.botLeftButton.BackColor = System.Drawing.Color.DarkSalmon
         Me.botLeftButton.Font = New System.Drawing.Font("Cooper Black", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.botLeftButton.Location = New System.Drawing.Point(108, 291)
+        Me.botLeftButton.Location = New System.Drawing.Point(107, 299)
         Me.botLeftButton.Name = "botLeftButton"
-        Me.botLeftButton.Size = New System.Drawing.Size(75, 75)
+        Me.botLeftButton.Size = New System.Drawing.Size(90, 90)
         Me.botLeftButton.TabIndex = 7
         Me.botLeftButton.TabStop = False
-        Me.botLeftButton.UseVisualStyleBackColor = True
+        Me.botLeftButton.UseVisualStyleBackColor = False
         '
         'botMidButton
         '
+        Me.botMidButton.BackColor = System.Drawing.Color.DarkSalmon
         Me.botMidButton.Font = New System.Drawing.Font("Cooper Black", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.botMidButton.Location = New System.Drawing.Point(199, 291)
+        Me.botMidButton.Location = New System.Drawing.Point(198, 299)
         Me.botMidButton.Name = "botMidButton"
-        Me.botMidButton.Size = New System.Drawing.Size(75, 75)
+        Me.botMidButton.Size = New System.Drawing.Size(90, 90)
         Me.botMidButton.TabIndex = 8
         Me.botMidButton.TabStop = False
-        Me.botMidButton.UseVisualStyleBackColor = True
+        Me.botMidButton.UseVisualStyleBackColor = False
         '
         'botRightButton
         '
+        Me.botRightButton.BackColor = System.Drawing.Color.DarkSalmon
         Me.botRightButton.Font = New System.Drawing.Font("Cooper Black", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.botRightButton.Location = New System.Drawing.Point(291, 291)
+        Me.botRightButton.Location = New System.Drawing.Point(290, 299)
         Me.botRightButton.Name = "botRightButton"
-        Me.botRightButton.Size = New System.Drawing.Size(75, 75)
+        Me.botRightButton.Size = New System.Drawing.Size(90, 90)
         Me.botRightButton.TabIndex = 9
         Me.botRightButton.TabStop = False
-        Me.botRightButton.UseVisualStyleBackColor = True
+        Me.botRightButton.UseVisualStyleBackColor = False
         '
         'tictactoeLabel
         '
         Me.tictactoeLabel.AutoSize = True
-        Me.tictactoeLabel.Font = New System.Drawing.Font("Lucida Bright", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tictactoeLabel.Location = New System.Drawing.Point(138, 51)
+        Me.tictactoeLabel.BackColor = System.Drawing.Color.Transparent
+        Me.tictactoeLabel.Font = New System.Drawing.Font("Lucida Bright", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tictactoeLabel.ForeColor = System.Drawing.Color.DarkRed
+        Me.tictactoeLabel.Location = New System.Drawing.Point(45, 35)
         Me.tictactoeLabel.Name = "tictactoeLabel"
-        Me.tictactoeLabel.Size = New System.Drawing.Size(203, 36)
+        Me.tictactoeLabel.Size = New System.Drawing.Size(411, 72)
         Me.tictactoeLabel.TabIndex = 10
         Me.tictactoeLabel.Text = "Tic Tac Toe"
         '
@@ -186,6 +198,8 @@ Partial Class tictactoeVB
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(484, 441)
         Me.Controls.Add(Me.tictactoeLabel)
         Me.Controls.Add(Me.botRightButton)
