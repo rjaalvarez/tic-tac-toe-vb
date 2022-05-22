@@ -1,10 +1,6 @@
 ﻿Public Class tictactoeVB
     Dim playturn As Boolean = True
 
-    Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles exitGame.Click
-        Application.Exit()
-    End Sub
-
     Private Sub newGame_Click(sender As Object, e As EventArgs) Handles newGame.Click
         topLeftButton.Enabled = True
         topMidButton.Enabled = True
@@ -291,5 +287,9 @@
         End If
         checkWinner()
         botRightButton.Enabled = False
+    End Sub
+
+    Private Sub exitGame_Click(sender As Object, e As EventArgs) Handles exitGame.Click
+        Application.Exit()
     End Sub
 End Class
